@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sản Phẩm</title>
+    <link rel="icon" href="img/Logo.png" />
+    <!-- link boostrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/chinh-sach.css" />
+    <link rel="stylesheet" href="css/detail-san-pham.css" />
+    <!--  -->
+    <!-- Owl Carousel CSS -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+ />
+ <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+ />
+ <!-- Font Awesome for navigation icons -->
+ <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+ />
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <!-- Owl Carousel JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+
+</head>
+<body>
+    <div class="nav navbar sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-white bg-white">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="white">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="home.html">Trang chủ</a></li>
+                    <li class="list-group-item"><a href="">Giới thiệu</a></li>
+                    <li class="list-group-item"><a href="">Sản phẩm</a></li>
+                    <li class="list-group-item"><a href="">Tin tức</a></li>
+                    <li class="list-group-item"><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="logo">
+                <a href="home.html"><img src="img/Logo.png" alt="" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li>
+                            <a href="san-pham.html">Sản phẩm</a>
+                            <div class="drop-down">
+                                <a href="">
+                                    <div class="box-anh-nav col-lg-3"></div>
+                                    <div class="box-text-nav col-lg-9">
+                                        Sữa hỗ trợ tăng chiều cao trẻ em Nhật Bản
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="box-anh-nav col-lg-3"></div>
+                                    <div class="box-text-nav col-lg-9">
+                                        Nước Hoa Calvin Klein CK One Shock For Him EDT 200ml
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="box-anh-nav col-lg-3"></div>
+                                    <div class="box-text-nav col-lg-9">
+                                        Sữa Rửa Mặt Eucerin Sạch Dầu - Tích Hợp 3X
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li>
+                            <a href="javascrip:void(0)">
+                                <img src="icons/find.png" alt="" />
+                            </a>
+                            <div class="box-search">
+                                <input type="text" placeholder="Nhập nội dung cần tìm kiếm..." />
+                                <button>
+                                    <img src="icons/right-arrow-green.png" alt="" />
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="icons/icon-cart.png" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box-chinh-sach">
+            <p>Sản phẩm</p>
+            <div class="box-anh-chinh-sach">
+                <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+                <img src="img/chinh-sach/Vector Smart Object.png" alt="" />
+                <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+            </div>
+            <!--  -->
+            <div class="box-sp">
+                <div class="box-card-sp row">
+                    <div class="box-anh-detail col-lg-6">
+
+                        <!--  -->
+                        <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" 
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" class="col-12 mySwiper"
+                        thumbs-swiper=".mySwiper2" loop="true" space-between="0" navigation="false">
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh1.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh 2.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh 3.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/Anh chinh.png" alt="">
+                            <img src="img/detail-sp/Ellipse-1.png" alt="">
+                        </swiper-slide>
+                      </swiper-container>
+                    
+                      <swiper-container class="mySwiper2" loop="true" space-between="10" slides-per-view="4" free-mode="true"
+                        watch-slides-progress="true">
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh1.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh 2.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh 3.png" alt="">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/detail-sp/anh 4.png" alt="">
+                            <img src="img/detail-sp/Ellipse-1.png" alt="">
+                        </swiper-slide>
+                      </swiper-container>
+                        <!--  -->
+                    </div>
+                    <!-- modal -->
+                    <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                                <div data-bs-dismiss="modal" aria-label="Close" class="close-modal">
+                                    <img src="icons/close.png" alt="">
+                                </div>
+                              
+                                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="img/vien-uong-dhc-vitamin-c-1.jpg"  alt="...">
+                                      </div>
+                                      <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="img/vien-uong-dhc-vitamin-c-1.jpg"  alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/vien-uong-dhc-vitamin-c-1.jpg"  alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                
+                          </div>
+                        </div>
+                      </div>
+                    <!-- end -->
+                    <div class="box-text-p col-lg-6">
+                        <p onclick="location.href='http://127.0.0.1:5500/detail-san-pham.html'">
+                            Kem dưỡng ban ngày Happy Life Luxury
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, adipiscing elit, sed do dolor sit
+                            amet, adipiscing elit, sed do dolor sit amet, adipiscing elit,
+                            sed do dolor sit amet, adipiscing elit, sed do dolor sit amet.
+                        </p>
+                        <p>
+                            <span>320.000đ <del>460.000đ</del></span>
+                        </p>
+                        <div class="line-quantity">
+                            <p>Số Lượng:</p>
+                            <div class="number-input">
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                    class="minus"></button>
+                                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                    class="plus"></button>
+                            </div>
+                        </div>
+
+                        <div class="box-btn">
+                            <button>Thêm vào giỏ</button>
+                            <button data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!-- form modal -->
+
+          <div class="modal fade modal-lg" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 style="color: black;
+                            font-size: 34px;text-align: center;" class="modal-title fs-5"
+                            id="exampleModalLabel"></h1>
+                          <div style="text-align: end;" data-bs-dismiss="modal"
+                          aria-label="Close">
+                              <img style="height: 20px;
+                              width: 20px;" src="icons/icon-remove.png" alt="">
+                          </div>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thông tin đặt hàng</p>
+                        <div class="box-anh-tieu-de">
+                          <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+                          <img src="img/chinh-sach/Vector Smart Object.png" alt="" />
+                          <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+                        </div>
+                        <p>Tên sản phẩm:</p>
+                        <p>Kem dưỡng ban ngày Happy Life Luxury</p>
+                        <p>Để lại thông tin liên hệ:</p>
+                        <form>
+                            <div class="col-12">
+                              <input id="name" type="text" placeholder="Họ và tên:" required>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-8">
+                                  <input id="tel" type="tel" placeholder="Số điện thoại:">
+                              </div>
+                              <div class="col-lg-4">
+                                <span class='number'>
+                                    <input id="quantity" type="number" placeholder="Số lượng:"/>
+                                </span>                              
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <input type="text" id="location" placeholder="Địa chỉ nhận hàng:">
+                            </div>
+                            <div class="col-12">
+                              <textarea name="" id="mess" placeholder="Lời nhắn:"></textarea>
+                            </div>
+                            <div class="btn-form-modal">
+                              <button type="button" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Gửi đi</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+          
+            </div>
+          </div> 
+   
+          <div class="modal fade modal-lg" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <p>Đặt hàng thành công</p>
+                    <div class="box-anh-tieu-de">
+                      <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+                      <img src="img/chinh-sach/Vector Smart Object.png" alt="" />
+                      <img src="img/chinh-sach/Rectangle 1.png" alt="" />
+                    </div>
+                    <div class="anh-succes">
+                        <img src="icons/detail-sp/check-done.png" alt="">
+                    </div>
+                    <p>Happy Life sẽ liên hệ lại bạn ngay để xác nhận và vận chuyển!</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+         <!--  -->
+            <div class="box-4-above">
+                <div class="box-4-p row">
+                    <p>Thành phần</p>
+                    <div class="box-4-content col-lg-3 col-md-6">
+                        <div class="box-img-card-4"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="box-4-content col-lg-3 col-md-6">
+                        <div class="box-img-card-4"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="box-4-content col-lg-3 col-md-6">
+                        <div class="box-img-card-4"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="box-4-content col-lg-3 col-md-6">
+                        <div class="box-img-card-4"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="box-cong-dung">
+                <div class="box-text-cong-dung">
+                    <p id="title">Công dụng</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        dosed doLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed dosed doLorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do.
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="box-mo-ta">
+                <div class="box-text-mo-ta">
+                    <p id="title">Mô tả sản phẩm</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        dosed doLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed dosed doLorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do.
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="box-mo-ta">
+                <div class="box-text-mo-ta">
+                    <p id="title">Hướng dẫn sử dụng</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        sed doLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="box-img-sp">
+                <div class="box-img">
+                    <p id="title">Hình ảnh sản phẩm</p>
+                     <section class="wraper">
+                        <div class="owl-carousel owl-theme image-slider1 row">
+                            <div class="item col-lg-3">
+                            <img src="img/detail-sp/Rectangle 1.png"/>
+                            <img src="icons/detail-sp/sêarch copy.png" alt="">
+                            </div>
+                            <div class="item col-lg-3">
+                          <img src="img/detail-sp/Rectangle 2.png"/>
+                          <img src="icons/detail-sp/sêarch copy.png" alt="">
+                          </div>
+                             <div class="item col-lg-3">
+                              <img src="img/detail-sp/Rectangle 3.png"/>
+                              <img src="icons/detail-sp/sêarch copy.png" alt="">
+                            </div>
+                             <div class="item col-lg-3">
+                              <img src="img/detail-sp/Rectangle 4.png"/>
+                              <img src="icons/detail-sp/sêarch copy.png" alt="">
+                            </div>
+                            <div class="item col-lg-3">
+                            <img src="img/detail-sp/Rectangle 2.png"/>
+                            <img src="icons/detail-sp/sêarch copy.png" alt="">
+                             </div>
+                          </div>
+                    </section>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="box-footer row">
+                <div class="footer-content col-lg-4 col-sm-12">
+                    <img src="icons/Logo.png" alt="" />
+                    <p>
+                        Chuyên bán và phân phối các sản phẩm TPCN, mỹ phẩm giá có nguồn
+                        gốc từ Nhật Bản.
+                    </p>
+                    <p>
+                        <img src="icons/icon-location-f.png" alt="" />
+                        <span>Trụ sở: 14 Dặng Tiến Đông, Đống Đa, Hà Nội</span>
+                    </p>
+                    <p>
+                        <img src="icons/icon-f-store.png" alt="" />
+                        <span> Cửa hàng: 22 Yết Kiêu, P.Cửa Nam, Hoàn Kiếm, Hà Nội</span>
+                    </p>
+                    <p>
+                        <img src="icons/icon-f-phone-call.png" alt="" />
+                        <span>Số điện thoại: 0818818086</span>
+                    </p>
+                    <p>
+                        <img src="icons/icon-f-email.png" alt="" />
+                        <span>Email: storehappylife.com</span>
+                    </p>
+                </div>
+                <div class="footer-content col-lg-4 col-sm-12">
+                    <p>Danh mục sản phẩm</p>
+                    <ul>
+                        <li><a href="">Thực phẩm chức năng người lớn</a></li>
+                        <li><a href="">Thực phẩm chức năng trẻ em</a></li>
+                        <li><a href="">Mỹ phẩm gia đình</a></li>
+                        <li><a href="">Đồ dùng gia đình</a></li>
+                        <li><a href="">Chăm sóc da</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content col-lg-4 col-sm-12">
+                    <p>Chính sách bán hàng</p>
+                    <ul>
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                        <li><a href="">Chính sách đổi hàng</a></li>
+                        <li><a href="">Phương thức thanh toán</a></li>
+                    </ul>
+                    <img src="icons/logo_bct.webp.png" alt="" />
+                </div>
+            </div>
+            <!-- @ copyright -->
+            <div class="line-white"></div>
+            <p id="copyright">© 2024 Happy Life Theme. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/detail-sp.js"></script>
+</body>
+
+</html>

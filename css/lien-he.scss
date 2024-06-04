@@ -1,0 +1,163 @@
+.box-hotline{
+    display: flex;
+    justify-content: center;
+    .card-hotline{
+        max-width: 356px;
+        &:nth-child(1){
+            margin-left: 25px;
+            ul{
+                padding-left: 1.8rem !important;
+            }
+        }
+        &:nth-child(2){
+            margin-left: 25px;
+            ul{
+                padding-left: 2.6rem !important;
+            }
+        }
+        &:nth-child(3){
+            margin-left: 25px;
+            ul{
+                padding-left: 2.7rem !important;
+            }
+        }
+        > p{
+            display: flex;
+            img{
+                transform: translate(-21px, 0px);
+                &:nth-of-type(1){
+                    height: 41px;
+                    width: auto;
+                }
+                &:nth-of-type(2){
+                    height: 40px;
+                    width: auto;
+                }
+                &:nth-of-type(3){
+                    height: 44px;
+                    width: auto;
+                }
+            }
+            span{
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+        ul{
+            list-style: none;
+            padding-top: 6px;
+            li{
+                font-size: 19px;
+                color: #7e7e7e;
+                padding-bottom: 29px;
+                span{
+                    font-size: 22px;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.box-map{
+    margin-top: 59px;
+    .container{
+        p{
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 142px;
+            margin-bottom: 0;
+        }
+    }
+
+    .box-map-content{
+        margin-top: 29px;
+    }
+}
+:root{
+    --xanh-bg-form: #e6f6d1;
+}
+.form-hotline{
+    display: flex;
+    margin-top: 75px;
+    padding-bottom: 33px;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    p{
+        &:nth-child(1){
+            font-size: 36px;
+            font-weight: bold;
+        }
+        &:nth-child(2){
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    form{
+        margin-top: 44px;
+        max-width: 786px;
+        .row{
+            .col-form{
+                padding-bottom: 16px;
+                input{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    padding-left:25px;
+                    min-height: 55px;
+                    background-color: var(--xanh-bg-form);
+                }
+                textarea{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    padding-left:25px;
+                    padding-top: 20px;
+                    min-height: 152px;
+                    background-color: var(--xanh-bg-form);
+                    resize: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .box-map .container p {
+        margin-left: 246px;
+    }
+    .box-hotline .card-hotline {
+        &:nth-of-type(1){
+                margin-left: 0px;
+        }
+        &:nth-of-type(2){
+            margin-left: 0px;
+    }
+    &:nth-of-type(3){
+        margin-left: 0px;
+}
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .box-hotline .card-hotline {
+        &:nth-of-type(1){
+                margin-left: 25px;
+        }
+        &:nth-of-type(2){
+            margin-left: 25px;
+    }
+    &:nth-of-type(3){
+        margin-left: 25px;
+}
+    }
+    .box-map .container p {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,78 @@
+:root {
+  --nen-xanh: #f0ffd6;
+}
+
+.box-chinh-sach {
+  padding-top: 54px;
+}
+
+.box-gioi-thieu {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-gioi-thieu .content-gioi-thieu {
+  max-width: 736px;
+}
+.box-gioi-thieu .content-gioi-thieu p {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.box-gioi-thieu .content-gioi-thieu .box-video-about {
+  cursor: pointer;
+  margin-top: 43px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 417px;
+  background-color: var(--nen-xanh);
+}
+.box-gioi-thieu .content-gioi-thieu .box-video-about img {
+  height: 71px;
+  width: auto;
+  transition: all 0.3s ease-in-out;
+}
+.box-gioi-thieu .content-gioi-thieu .box-video-about:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.box-gioi-thieu .content-gioi-thieu p#title {
+  letter-spacing: 0.1px;
+  line-height: 35px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.box-gioi-thieu .content-gioi-thieu p#content-title {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+.box-gioi-thieu .content-gioi-thieu p#title-2 {
+  letter-spacing: 0.1px;
+  line-height: 35px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.box-gioi-thieu .content-gioi-thieu p#content-title-2 {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+.box-gioi-thieu .content-gioi-thieu .box-img-about {
+  height: 417px;
+  background-color: var(--nen-xanh);
+  margin-bottom: 78px;
+}
+.box-gioi-thieu .content-gioi-thieu p#content-title-3 {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 14px;
+}/*# sourceMappingURL=gioi-thieu.css.map */
